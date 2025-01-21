@@ -11,6 +11,8 @@ int screenWidth = 800;
 int screenHeight = 600;
 int dotsEaten = 0;
 int dotReset = 20;
+int special = 0;
+bool huntMode = false;
 
 float rectWidth = 30;
 float rectHeight = 30;
@@ -19,6 +21,7 @@ float xPosition = rand() % 800;
 float yPosition = 200;
 float speed = 5;
 bool spacePressed = false;
+int ticker = 0;
 
 const int numCircles = 20;
 sf::CircleShape circles[numCircles];

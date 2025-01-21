@@ -33,12 +33,12 @@
 // 
 int main()
 {
+	std::cout << "Started Game" << std::endl;
+
 	setupFontAndText();
 	sf::RenderWindow window(sf::VideoMode(screenWidth, screenHeight), "1D Pacman");
 
 	simpleRectangle.setSize(sf::Vector2f(rectWidth, rectHeight));
-
-	simpleRectangle.setFillColor(sf::Color::Red);
 
 	simpleRectangle.setPosition(100, 200);
 
@@ -48,7 +48,18 @@ int main()
 
 	while (window.isOpen())
 	{
-		update();
+		std::cout << ticker << std::endl;
+
+		if (huntMode == true)
+		{ 
+			ticker++;
+
+			if (ticker > 10000)
+			{
+				huntMode = false;
+			}
+		}
+
 		sf::Event event;
 		while (window.pollEvent(event))
 		{
@@ -60,6 +71,8 @@ int main()
 
 		if (timeSinceLastUpdate > timePerFrame)
 		{
+			update();
+
 			if (sf::Keyboard::isKeyPressed(sf::Keyboard::Space))
 			{
 				if (spacePressed == false)
@@ -92,7 +105,10 @@ int main()
 					circles[index].setPosition(1000, 1000);
 					dotsEaten++;
 					dotReset--;
-
+				}
+				if (simpleRectangle.getGlobalBounds().intersects(circles[special].getGlobalBounds()))
+				{
+					huntMode = true;
 				}
 			}
 
@@ -140,6 +156,15 @@ void update()
 {
 	m_counter = std::to_string(dotsEaten);
 	m_pointCount.setString(m_counter);
+
+	if (huntMode == true)
+	{
+		simpleRectangle.setFillColor(sf::Color::Red);
+	}
+	else if (huntMode == false)
+	{
+		simpleRectangle.setFillColor(sf::Color::Yellow);
+	}
 }
 
 void orbCreation()
@@ -153,6 +178,7 @@ void orbCreation()
 			circles[index].setFillColor(sf::Color::Yellow);
 			circles[index].setRadius(15);
 			circles[index].setPosition(40 * index, 195);
+			special = index;
 		}
 		else
 		{

@@ -2,15 +2,15 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\c00298918\source\repos\SFML Template 2.6.12\Release\SFML Template 2.6.12.exe</FullPath>
+      <FullPath>C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\Release\SFML Template 2.6.12.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles>
     <ContentFile>
-      <FullPath>C:\Users\c00298918\source\repos\SFML Template 2.6.12\SFML Template 2.6.12\ASSETS\FONTS\ariblk.ttf</FullPath>
+      <FullPath>C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\ASSETS\FONTS\ariblk.ttf</FullPath>
     </ContentFile>
     <ContentFile>
-      <FullPath>C:\Users\c00298918\source\repos\SFML Template 2.6.12\SFML Template 2.6.12\ASSETS\IMAGES\SFML-LOGO.png</FullPath>
+      <FullPath>C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\ASSETS\IMAGES\SFML-LOGO.png</FullPath>
     </ContentFile>
   </ContentFiles>
   <SatelliteDlls />
