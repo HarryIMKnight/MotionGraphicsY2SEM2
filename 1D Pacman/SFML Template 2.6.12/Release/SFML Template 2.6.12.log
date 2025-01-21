@@ -1,0 +1,11 @@
+﻿  main.cpp
+C:\Users\c00298918\source\repos\SFML Template 2.6.12\SFML Template 2.6.12\Game.h(18,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\source\repos\SFML Template 2.6.12\SFML Template 2.6.12\main.cpp(45,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\c00298918\source\repos\SFML Template 2.6.12\SFML Template 2.6.12\main.cpp(83,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\source\repos\SFML Template 2.6.12\SFML Template 2.6.12\main.cpp(155,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\source\repos\SFML Template 2.6.12\SFML Template 2.6.12\main.cpp(161,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 113 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  SFML Template 2.6.12.vcxproj -> C:\Users\c00298918\source\repos\SFML Template 2.6.12\Release\SFML Template 2.6.12.exe
