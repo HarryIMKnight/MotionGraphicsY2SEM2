@@ -1,9 +1,23 @@
 ﻿  main.cpp
-C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\Game.h(20,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(45,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(96,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(180,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(187,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\Game.h(21,17): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(46,12): warning C4459: declaration of 'i' hides global declaration
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(50,38): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(50,38): warning C4244:         with
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(50,38): warning C4244:         [
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(50,38): warning C4244:             T=float
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(50,38): warning C4244:         ]
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(52,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(55,11): warning C4459: declaration of 'i' hides global declaration
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(59,37): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(59,37): warning C4244:         with
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(59,37): warning C4244:         [
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(59,37): warning C4244:             T=float
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(59,37): warning C4244:         ]
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(60,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(65,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(117,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(252,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\SFML Template 2.6.12\main.cpp(259,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\SFML-2.6.1\include\SFML\Graphics\Rect.inl(40,40): warning C4459: declaration of 'rectWidth' hides global declaration
 C:\SFML-2.6.1\include\SFML\Graphics\Rect.inl(40,53): warning C4459: declaration of 'rectHeight' hides global declaration
   SFML Template 2.6.12.vcxproj -> C:\Users\c00298918\Desktop\MotionGraphicsY2SEM2\1D Pacman\Debug\SFML Template 2.6.12.exe

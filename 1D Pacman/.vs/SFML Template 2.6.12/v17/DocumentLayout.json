@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\c00298918\\Desktop\\MotionGraphicsY2SEM2\\1D Pacman\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4124CD7E-A0E5-4DE7-8708-350EACF90446}|SFML Template 2.6.12\\SFML Template 2.6.12.vcxproj|C:\\Users\\c00298918\\Desktop\\MotionGraphicsY2SEM2\\1D Pacman\\SFML Template 2.6.12\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4124CD7E-A0E5-4DE7-8708-350EACF90446}|SFML Template 2.6.12\\SFML Template 2.6.12.vcxproj|solutionrelative:SFML Template 2.6.12\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4124CD7E-A0E5-4DE7-8708-350EACF90446}|SFML Template 2.6.12\\SFML Template 2.6.12.vcxproj|C:\\Users\\c00298918\\Desktop\\MotionGraphicsY2SEM2\\1D Pacman\\SFML Template 2.6.12\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4124CD7E-A0E5-4DE7-8708-350EACF90446}|SFML Template 2.6.12\\SFML Template 2.6.12.vcxproj|solutionrelative:SFML Template 2.6.12\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4124CD7E-A0E5-4DE7-8708-350EACF90446}|SFML Template 2.6.12\\SFML Template 2.6.12.vcxproj|C:\\Users\\c00298918\\Desktop\\MotionGraphicsY2SEM2\\1D Pacman\\SFML Template 2.6.12\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4124CD7E-A0E5-4DE7-8708-350EACF90446}|SFML Template 2.6.12\\SFML Template 2.6.12.vcxproj|solutionrelative:SFML Template 2.6.12\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,30 +18,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Game.h",
               "DocumentMoniker": "C:\\Users\\c00298918\\Desktop\\MotionGraphicsY2SEM2\\1D Pacman\\SFML Template 2.6.12\\Game.h",
               "RelativeDocumentMoniker": "SFML Template 2.6.12\\Game.h",
               "ToolTip": "C:\\Users\\c00298918\\Desktop\\MotionGraphicsY2SEM2\\1D Pacman\\SFML Template 2.6.12\\Game.h",
               "RelativeToolTip": "SFML Template 2.6.12\\Game.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAiwBQAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-21T12:22:29.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\c00298918\\Desktop\\MotionGraphicsY2SEM2\\1D Pacman\\SFML Template 2.6.12\\main.cpp",
               "RelativeDocumentMoniker": "SFML Template 2.6.12\\main.cpp",
               "ToolTip": "C:\\Users\\c00298918\\Desktop\\MotionGraphicsY2SEM2\\1D Pacman\\SFML Template 2.6.12\\main.cpp",
               "RelativeToolTip": "SFML Template 2.6.12\\main.cpp",
-              "ViewState": "AQIAABIAAAAAAAAAAAAvwCIAAAABAAAA",
+              "ViewState": "AQIAAHkAAAAAAAAAAADwv9kAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-21T12:22:20.859Z",
               "EditorCaption": ""

@@ -39,8 +39,28 @@ int main()
 	sf::RenderWindow window(sf::VideoMode(screenWidth, screenHeight), "1D Pacman");
 
 	simpleRectangle.setSize(sf::Vector2f(rectWidth, rectHeight));
-
 	simpleRectangle.setPosition(100, 200);
+	ghostSquare.setSize(sf::Vector2f(rectWidth, rectHeight));
+	ghostSquare.setPosition(ghostXPos, ghostYPos);
+
+	for  (int i = 0; i < 2; ++i)
+	{
+		
+			m_barrier[i].setFillColor(sf::Color::Red);
+			m_barrier[i].setSize(sf::Vector2f(screenWidth, 20));
+			
+			m_barrier[i].setPosition(0, 100 + 50 * i);
+		
+	}
+	for (int i = 2; i < 4; ++i)
+	{
+
+		m_barrier[i].setFillColor(sf::Color::Red);
+		m_barrier[i].setSize(sf::Vector2f(screenWidth, 20));
+		m_barrier[i].setPosition(0, 150 + 50 * i);
+
+
+	}
 
 	srand(time(NULL));
 
@@ -54,9 +74,10 @@ int main()
 		{ 
 			ticker++;
 
-			if (ticker > 10000)
+			if (ticker > 15000)
 			{
 				huntMode = false;
+				ticker = 0;
 			}
 		}
 
@@ -97,6 +118,8 @@ int main()
 			}
 
 			simpleRectangle.setPosition(xPosition, yPosition);
+			ghostSquare.setPosition(ghostXPos, ghostYPos);
+
 
 			for (int index = 0; index < numCircles; index++)
 			{
@@ -109,6 +132,7 @@ int main()
 				if (simpleRectangle.getGlobalBounds().intersects(circles[special].getGlobalBounds()))
 				{
 					huntMode = true;
+					ticker = 0;
 				}
 			}
 
@@ -123,8 +147,15 @@ int main()
 			{
 				window.draw(circles[index]);
 			}
+			for (int index = 0; index < 4; index++)
+			{
+				window.draw(m_barrier[index]);
+			}
 			window.draw(simpleRectangle);
+			window.draw(ghostSquare);
 			window.draw(m_pointCount);
+			//for (sf::RectangleShape rect : m_barrier[i])
+			//window.draw(m_barrier);
 
 			window.display();
 
@@ -150,6 +181,14 @@ void setupFontAndText()
 	m_pointCount.setFillColor(sf::Color::Black);
 	m_pointCount.setOutlineThickness(3.0f);
 
+	if (xPosition <= 400)
+	{
+		ghostXPos = 800;
+	}
+	else if (xPosition >= 401)
+	{
+		ghostXPos = 0;
+	}
 }
 
 void update()
@@ -160,10 +199,43 @@ void update()
 	if (huntMode == true)
 	{
 		simpleRectangle.setFillColor(sf::Color::Red);
+		ghostSquare.setFillColor(sf::Color::Blue);
 	}
 	else if (huntMode == false)
 	{
 		simpleRectangle.setFillColor(sf::Color::Yellow);
+		ghostSquare.setFillColor(sf::Color::Magenta);
+	}
+
+	if (xPosition > ghostXPos)
+	{
+		if (huntMode == false) { 
+			ghostXPos += ghostSpeed; 
+		}
+		else if (huntMode == true) {
+			if (ghostXPos <= 0)
+			{
+				// ghostXPos = 0;
+			}
+			else {
+				ghostXPos -= ghostSpeed - 3;
+			}
+		}
+	}
+	else if (xPosition < ghostXPos)
+	{
+		if (huntMode == false) {
+			ghostXPos -= ghostSpeed;
+		}
+		else if (huntMode == true) {
+			if (ghostXPos >= screenWidth - 30)
+			{
+				// ghostXPos = 800;
+			}
+			else {
+				ghostXPos += ghostSpeed - 3;
+			}
+		}
 	}
 }
 

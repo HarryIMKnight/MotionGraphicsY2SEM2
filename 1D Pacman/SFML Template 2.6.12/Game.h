@@ -13,13 +13,17 @@ int dotsEaten = 0;
 int dotReset = 20;
 int special = 0;
 bool huntMode = false;
+int i = 0;
 
 float rectWidth = 30;
 float rectHeight = 30;
 
 float xPosition = rand() % 800;
 float yPosition = 200;
+float ghostXPos = 0;
+float ghostYPos = 200;
 float speed = 5;
+float ghostSpeed = 5.5;
 bool spacePressed = false;
 int ticker = 0;
 
@@ -34,6 +38,8 @@ sf::String m_counter{ "0" };
 sf::Font m_ArialBlackfont;
 sf::Text m_pointCount;
 sf::RectangleShape simpleRectangle;
+sf::RectangleShape m_barrier[4];
+sf::RectangleShape ghostSquare;
 
 void setupFontAndText();
 void update();
